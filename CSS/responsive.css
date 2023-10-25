@@ -659,6 +659,7 @@
 
     footer #copyright img {
         height: 18px;
+        width: 36px;
     }
     #feature-product .f-p-item .new-tag::before {
         top: 10%;
