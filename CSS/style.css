@@ -2029,7 +2029,7 @@ footer #ending form input::placeholder{
     border-bottom: 1px solid var(--tertiary-color);
 } */
 footer #ending form input:focus::placeholder{
-    top: -50%;
+    top: -100%;
 }
 footer #ending form button{
     background: var(--secondary-color);

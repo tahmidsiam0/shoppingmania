@@ -1,20 +1,3 @@
-@media (max-width: 480px) {
-    #sponsor .sponsor img {
-        height: 150px;
-        margin: 50px;
-    }
-
-}
-
-
-
-/* ===============================================
-                    480 ends
-================================================== */
-
-
-
-
 @media (max-width: 575.98px) {
 
     /* container starts */
@@ -517,7 +500,8 @@
     #trated-part .trated-body .img {
         height: 350px;
     }
-    #mixitup-part h2{
+
+    #mixitup-part h2 {
         margin-top: 100px;
     }
 
@@ -599,60 +583,165 @@
     }
 
 
-        /* footer starts */
-        footer #copyright {
-            height: 50px;
-        }
-    
-        footer #copyright div p {
-            line-height: 50px;
-            font-size: 15px;
-        }
-    
-        footer #copyright .card-image img {
-            height: 30px;
-            margin: 0 3px;
-        }
-        
-        footer #ending {
-            padding-top: 20px;
-        }
-    
-        footer #ending h5 {
-            margin-bottom: 20px;
-        }
-    
-        footer #ending h4 {
-            margin-bottom: 20px;
-        }
-    
-        footer #ending .d-text {
-            height: 50px;
-        }
-    
-        footer #ending .d-contact {
-            height: 100px;
-        }
-    
-        footer #ending .d-account {
-            height: 120px;
-        }
-    
-        footer .details form {
-            margin-bottom: 40px;
-        }
-    
-        footer #ending .img {
-            text-align: center;
-        }
-    
-        footer #ending img {
-            height: auto;
-            width: 50%;
-            margin: 0 auto;
-            text-align: center;
-        }
+    /* footer starts */
+    footer #copyright {
+        height: 50px;
+    }
+
+    footer #copyright div p {
+        line-height: 50px;
+        font-size: 15px;
+    }
+
+    footer #copyright .card-image img {
+        height: 30px;
+        margin: 0 3px;
+    }
+
+    footer #ending {
+        padding-top: 20px;
+    }
+
+    footer #ending h5 {
+        margin-bottom: 20px;
+    }
+
+    footer #ending h4 {
+        margin-bottom: 20px;
+    }
+
+    footer #ending .d-text {
+        height: 50px;
+    }
+
+    footer #ending .d-contact {
+        height: 100px;
+    }
+
+    footer #ending .d-account {
+        height: 120px;
+    }
+
+    footer .details form {
+        margin-bottom: 40px;
+    }
+
+    footer #ending .img {
+        text-align: center;
+    }
+
+    footer #ending img {
+        height: auto;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
 
 
 
 }
+
+
+
+/* ============================== */
+
+
+
+@media (max-width: 480px) {
+    #sponsor .sponsor img {
+        height: 137px;
+        margin: 50px;
+    }
+
+    footer #copyright div p {
+        font-size: 8px;
+    }
+
+    footer #copyright img {
+        height: 18px;
+    }
+    #feature-product .f-p-item .new-tag::before {
+        top: 10%;
+        left: -57%;
+        width: 130px;
+        height: 15px;
+        line-height: 16px;
+        font-size: 7px;
+    }
+
+    .container {
+        max-width: 390px;
+    }
+
+    #feature-product .f-p-item .p-item img {
+        height: 100px;
+    }
+
+    #feature-product .f-p-item .p-item {
+        margin: 0 15px;
+    }
+
+    #feature-product .f-p-item .p-item h2 {
+        font-size: 5px;
+    }
+
+    #feature-product .f-p-item .p-item h5 {
+        font-size: 7px;
+        margin-top: -5px;
+    }
+
+    #feature-product .f-p-item .p-item a {
+        font-size: 3px;
+        height: 8px;
+        width: 25px;
+        line-height: 8px;
+    }
+
+    #feature-product .f-p-item .p-item .button {
+        margin-top: -10px;
+    }
+
+    #left-column .hot-deals img {
+        height: 350px;
+    }
+
+    #mixitup-part .mixitup-body .img,
+    #nproducts-part .nproducts-body .img,
+    #trated-part .trated-body .img {
+        height: 230px;
+    }
+
+    #blog-part .w-blog {
+        height: 400px;
+    }
+
+    #blog-part .w-blog img {
+        height: 230px;
+    }
+
+    .b-selling .b-s-products {
+        height: 100px;
+    }
+
+    .b-selling .scroll {
+        height: 299px;
+    }
+    .latest .latest-products .l-products {
+        height: 100px;
+    }
+    .latest .latest-products .scroll {
+        height: 299px;
+    }
+
+    #mixitup-part .mixit-title ul li a {
+        margin: 0 12px;
+        font-size: 13px;
+    }
+
+}
+
+
+
+/* ===============================================
+                    480 ends
+================================================== */
