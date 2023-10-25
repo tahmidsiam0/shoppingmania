@@ -1,0 +1,658 @@
+@media (max-width: 480px) {
+    #sponsor .sponsor img {
+        height: 150px;
+        margin: 50px;
+    }
+
+}
+
+
+
+/* ===============================================
+                    480 ends
+================================================== */
+
+
+
+
+@media (max-width: 575.98px) {
+
+    /* container starts */
+    /* .navbar .container {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-right: auto;
+        margin-left: auto;
+    } */
+    /* container ends */
+
+    /* header starts */
+    header {
+        display: none;
+    }
+
+    /* header ends */
+
+
+    /* nav starts */
+
+    nav {
+        position: fixed !important;
+        top: 0 !important;
+        background: var(--tertiary-color) !important;
+        left: 0 !important;
+        right: 0 !important;
+        z-index: 999 !important;
+    }
+
+    .nav-item {
+        text-align: end;
+    }
+
+    nav .nav-link {
+        position: relative;
+        display: inline-block;
+    }
+
+    nav .nav-link::before {
+        bottom: 17%;
+        right: 0 !important;
+    }
+
+    nav .cart-a {
+        text-align: end;
+        margin: 15px 0;
+    }
+
+    /* nav ends */
+
+
+
+    /* cat and prod starts */
+    .cat-prod {
+        margin-top: 118px;
+    }
+
+    .cat-prod .row {
+        margin: 0;
+        padding: 0;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    /* .col-12{
+        padding: 0;
+    } */
+    #mixitup-part {
+        margin-top: 50px;
+    }
+
+    /* cat and prod ends */
+
+
+
+    /* mixitup */
+    #mixitup-part .mixitup-body .img,
+    #nproducts-part .nproducts-body .img,
+    #trated-part .trated-body .img {
+        height: 300px;
+    }
+
+    /* mixitup */
+
+
+
+
+    /* sponsor starts */
+    #sponsor .sponsor img {
+        height: 80px;
+        margin: 15px;
+    }
+
+    .column-divide {
+        padding-bottom: 0;
+    }
+
+    #sponsor .arrow {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    /* sponsor ends */
+
+
+
+    /* category > products starts */
+    #cat-prod .row .col-lg-8 {
+        padding: 0;
+    }
+
+    /* category > products ends */
+
+
+    /* .sticky-nav{
+    position: static;
+    transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+} */
+    /* feature product starts */
+    #feature-product .f-p-item .p-item img {
+        height: 150px;
+    }
+
+    #feature-product .f-p-item .p-item h2 {
+        font-size: 12px;
+    }
+
+    #feature-product .f-p-item .p-item h5 {
+        font-size: 10px;
+    }
+
+    #feature-product .f-p-item .p-item a {
+        font-size: 5px;
+        height: 15px;
+        width: 40px;
+        margin: 5px 0;
+        line-height: 15px;
+    }
+
+    /* feature product ends */
+
+
+
+
+    /* <!-- mixitup starts here --> */
+    #mixitup-part h2 {
+        font-size: 26px;
+    }
+
+    /* <!-- mixitup ends here --> */
+
+    /* <!-- new products starts here --> */
+    #nproducts-part h2 {
+        font-size: 26px;
+    }
+
+    /* <!-- new products ends here --> */
+
+    /* <!-- top rated starts here --> */
+    #trated-part h2 {
+        font-size: 26px;
+    }
+
+    /* <!-- top rated ends here --> */
+
+    /* <!-- blog starts here --> */
+    #blog-part h2 {
+        font-size: 26px;
+    }
+
+    /* <!-- blog ends here --> */
+
+
+
+
+    /* footer starts */
+    footer #copyright {
+        height: 40px;
+    }
+
+    footer #copyright div p {
+        line-height: 40px;
+        font-size: 9px;
+    }
+
+    footer #copyright .card-image img {
+        height: 22px;
+        margin: 0 3px;
+    }
+
+    footer #copyright .card-image img:nth-child(4),
+    footer #copyright .card-image img:nth-child(5) {
+        display: none;
+    }
+
+    footer #ending {
+        padding-top: 20px;
+    }
+
+    footer #ending h5 {
+        margin-bottom: 20px;
+    }
+
+    footer #ending h4 {
+        margin-bottom: 20px;
+    }
+
+    footer #ending .d-text {
+        height: 90px;
+    }
+
+    footer #ending .d-contact {
+        height: 100px;
+    }
+
+    footer #ending .d-account {
+        height: 120px;
+    }
+
+    footer .details form {
+        margin-bottom: 40px;
+    }
+
+    footer #ending .img {
+        text-align: center;
+    }
+
+    footer #ending img {
+        height: auto;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* footer ends */
+}
+
+
+
+
+
+
+/* =================================================
+                    575 small ends
+=====================================================
+ */
+
+
+
+
+
+/* ============================================
+            768 or md starts
+=============================================== */
+@media (max-width: 767.98px) {
+
+    /* header */
+    header .call {
+        display: none;
+    }
+
+    header .sign-in {
+        display: none;
+    }
+
+    header .account a {
+        border-right: none !important;
+    }
+
+    /* nav */
+    .nav-item {
+        text-align: end;
+    }
+
+    nav .nav-link {
+        position: relative;
+        display: inline-block;
+    }
+
+    nav .nav-link::before {
+        bottom: 17%;
+        right: 0 !important;
+    }
+
+    nav .cart-a {
+        text-align: end;
+        margin: 15px 0;
+    }
+
+
+    /* footer starts */
+    footer #copyright {
+        height: 40px;
+    }
+
+    footer #copyright div p {
+        line-height: 40px;
+        font-size: 9px;
+    }
+
+    footer #copyright .card-image img {
+        height: 22px;
+        margin: 0 3px;
+    }
+
+    footer #copyright .card-image img:nth-child(4),
+    footer #copyright .card-image img:nth-child(5) {
+        display: none;
+    }
+
+    footer #ending {
+        padding-top: 20px;
+    }
+
+    footer #ending h5 {
+        margin-bottom: 20px;
+    }
+
+    footer #ending h4 {
+        margin-bottom: 20px;
+    }
+
+    footer #ending .d-text {
+        height: 90px;
+    }
+
+    footer #ending .d-contact {
+        height: 100px;
+    }
+
+    footer #ending .d-account {
+        height: 120px;
+    }
+
+    footer .details form {
+        margin-bottom: 40px;
+    }
+
+    footer #ending .img {
+        text-align: center;
+    }
+
+    footer #ending img {
+        height: auto;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+    /* category > products starts */
+    #cat-prod .row .col-lg-8 {
+        padding: 0;
+    }
+
+
+
+    /* mixitup */
+    #mixitup-part .mixitup-body .img,
+    #nproducts-part .nproducts-body .img,
+    #trated-part .trated-body .img {
+        height: 350px;
+    }
+
+
+    /* blog */
+    #blog-part .w-blog img {
+        height: 300px;
+    }
+
+    #blog-part .w-blog {
+        height: 450px;
+    }
+
+
+
+    /* feature product starts */
+    #feature-product .f-p-item .new-tag::before {
+        top: 9%;
+        left: -35%;
+        width: 150px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 11px;
+    }
+
+    #feature-product .f-p-item .p-item img {
+        height: 180px;
+    }
+
+    #feature-product .f-p-item .p-item h2 {
+        font-size: 14px;
+    }
+
+    #feature-product .f-p-item .p-item h5 {
+        font-size: 12px;
+    }
+
+    #feature-product .f-p-item .p-item a {
+        font-size: 7px;
+        height: 18px;
+        width: 50px;
+        margin: 7px 0;
+        line-height: 18px;
+    }
+
+
+
+
+    /* sponsor starts */
+    #sponsor .sponsor img {
+        height: 100px;
+        margin: 10px;
+    }
+
+    #sponsor .arrow {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+
+
+
+
+
+
+    /* cart */
+    nav .cart .cart-details {
+        top: 60px;
+        right: -7%;
+        width: auto;
+    }
+}
+
+
+
+
+
+
+
+
+/* ============================================
+            992 or lg starts
+=============================================== */
+@media (max-width: 991.98px) {
+
+    /* header */
+    header .call {
+        display: none;
+    }
+
+    header .sign-in {
+        border-right: none !important;
+    }
+
+    /* nav */
+    .nav-item {
+        text-align: end;
+    }
+
+    nav .nav-link {
+        position: relative;
+        display: inline-block;
+    }
+
+    nav .nav-link::before {
+        bottom: 17%;
+        right: 0 !important;
+    }
+
+    nav .cart-a {
+        text-align: end;
+        margin: 15px 0;
+    }
+
+
+
+
+
+    /* category > products starts */
+    #cat-prod .row .col-lg-8 {
+        padding: 0;
+    }
+
+
+
+    /* mixitup */
+    #mixitup-part .mixitup-body .img,
+    #nproducts-part .nproducts-body .img,
+    #trated-part .trated-body .img {
+        height: 350px;
+    }
+    #mixitup-part h2{
+        margin-top: 100px;
+    }
+
+    /* blog */
+    #blog-part .w-blog img {
+        height: 300px;
+    }
+
+    #blog-part .w-blog {
+        height: 450px;
+    }
+
+
+
+    /* feature product starts */
+    #feature-product .f-p-item .new-tag::before {
+        top: 9%;
+        left: -25%;
+        width: 150px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 11px;
+    }
+
+    #feature-product .f-p-item .p-item img {
+        height: 220px;
+    }
+
+    #feature-product .f-p-item .p-item h2 {
+        font-size: 14px;
+    }
+
+    #feature-product .f-p-item .p-item h5 {
+        font-size: 12px;
+    }
+
+    #feature-product .f-p-item .p-item a {
+        font-size: 7px;
+        height: 18px;
+        width: 50px;
+        margin: 7px 0;
+        line-height: 18px;
+    }
+
+    #left-column .hot-deals img {
+        width: 100%;
+        height: 600px;
+    }
+
+    #hot-deal .p-item img {
+        height: 600px;
+    }
+
+
+
+
+    /* sponsor starts */
+    #sponsor .sponsor img {
+        height: 100px;
+        margin: 10px;
+    }
+
+    #sponsor .arrow {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+
+
+
+
+
+
+    /* cart */
+    nav .cart .cart-details {
+        top: 60px;
+        right: -7%;
+        width: auto;
+    }
+
+
+        /* footer starts */
+        footer #copyright {
+            height: 50px;
+        }
+    
+        footer #copyright div p {
+            line-height: 50px;
+            font-size: 15px;
+        }
+    
+        footer #copyright .card-image img {
+            height: 30px;
+            margin: 0 3px;
+        }
+        
+        footer #ending {
+            padding-top: 20px;
+        }
+    
+        footer #ending h5 {
+            margin-bottom: 20px;
+        }
+    
+        footer #ending h4 {
+            margin-bottom: 20px;
+        }
+    
+        footer #ending .d-text {
+            height: 50px;
+        }
+    
+        footer #ending .d-contact {
+            height: 100px;
+        }
+    
+        footer #ending .d-account {
+            height: 120px;
+        }
+    
+        footer .details form {
+            margin-bottom: 40px;
+        }
+    
+        footer #ending .img {
+            text-align: center;
+        }
+    
+        footer #ending img {
+            height: auto;
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+
+
+}
